@@ -8,7 +8,7 @@ public class Main {
 		
 		
 		
-		Product product1 = new Product();
+		Product product1 = new Product();//class PascalCase, değişken camelCase
 		/*product1.name = "Delonghi Kahve Makinesi"; // set value
 		product1.unitPrice = 7500;
 		product1.discount = 7;
@@ -74,6 +74,17 @@ public class Main {
 		individualCustomer1.setCustomerNumber("12345");
 		individualCustomer1.setFisrtName("Engin");
 		individualCustomer1.setFisrtName("Demiroğ");
+		
+		//------------------------------------------------------------------------
+		CorporateCustomer corporateCustomer1=new CorporateCustomer();
+		corporateCustomer1.setId(2);
+		corporateCustomer1.setPhone("0532 *** 2022");
+		corporateCustomer1.setCustomerNumber("99999");
+		corporateCustomer1.setCompanyName("KOdlama.io");
+		corporateCustomer1.setTaxNumber("51648534261");
+		
+		Customer[] customers=new Customer[]{individualCustomer1,corporateCustomer1}; //çünkü bunlar Customer classını içerir
+		
 		
 	}
 
