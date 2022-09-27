@@ -67,6 +67,14 @@ public class Main {
 			System.out.println("<li>" + productLoop.getName() + "</li>");//list item, set/get yapınca
 		}
 		System.out.println("</ul>");
+		//------------------------------------------------------------------------
+		IndividualCustomer individualCustomer1=new IndividualCustomer();
+		individualCustomer1.setId(1);
+		individualCustomer1.setPhone("0532 *** 1414");
+		individualCustomer1.setCustomerNumber("12345");
+		individualCustomer1.setFisrtName("Engin");
+		individualCustomer1.setFisrtName("Demiroğ");
+		
 	}
 
 }
