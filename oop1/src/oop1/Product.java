@@ -2,12 +2,12 @@ package oop1;
 // classlar PascalCase isimlendirilir(Product)
 public class Product {
 	
-	//Class ın fieldları camelCase yazılır
+	//Class ın fieldları(alanları) camelCase yazılır
 	
 	String name;
 	double unitPrice;
 	double discount;
-	String[] imageUrls;
+	String imageUrl;
 	int unitsInStock;
 
 }
