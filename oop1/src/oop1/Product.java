@@ -5,7 +5,7 @@ public class Product {
 
 	// Class ın fieldları(alanları) camelCase yazılır
 
-	private String name;
+	private String name;  //nesneyi değil,nesneyi oluşturacak ortamı hazırlıyoruz
 	private double unitPrice;
 	private double discount;
 	private String imageUrl;
