@@ -6,7 +6,7 @@ public class Main {
 		// TODO Auto-generated method stub
 		
 		
-		
+		//9995
 		
 		Product product1 = new Product();//class PascalCase, değişken camelCase
 		/*product1.name = "Delonghi Kahve Makinesi"; // set value
