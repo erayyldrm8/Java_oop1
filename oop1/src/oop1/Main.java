@@ -80,7 +80,7 @@ public class Main {
 		corporateCustomer1.setId(2);
 		corporateCustomer1.setPhone("0532 *** 2022");
 		corporateCustomer1.setCustomerNumber("99999");
-		corporateCustomer1.setCompanyName("KOdlama.io");
+		corporateCustomer1.setCompanyName("Kodlama.io");
 		corporateCustomer1.setTaxNumber("51648534261");
 		
 		Customer[] customers=new Customer[]{individualCustomer1,corporateCustomer1}; //çünkü bunlar Customer classını içerir
